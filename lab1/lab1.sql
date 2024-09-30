@@ -25,3 +25,5 @@ CREATE TABLE tasks (
 DROP TABLE tasks;
 
 DROP DATABASE lab1;
+
+SELECT * FROM users;

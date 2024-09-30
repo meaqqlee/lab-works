@@ -1,6 +1,6 @@
 CREATE DATABASE lab2;
 
-CREATE TABLE countries (
+CREATE TABLE "countries" (
     country_id SERIAL PRIMARY KEY,
     country_name VARCHAR(100),
     region_id INT,
@@ -52,3 +52,7 @@ RETURNING *;
 
 DELETE FROM countries
 RETURNING *;
+
+SELECT * FROM countries_new;
+
+DROP TABLE "user";
